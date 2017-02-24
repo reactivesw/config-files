@@ -7,4 +7,4 @@ jwt:
 
 spring:
   controller:
-    name: customer-authentication
+    name: customer-info
