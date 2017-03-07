@@ -6,7 +6,7 @@ zuul:
   routes:
     category:
       path: /categories/**
-      url: http://category/categories
+      url: http://category/
     cart:
       path: /carts/**
       url: http://cart/
