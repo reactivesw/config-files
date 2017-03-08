@@ -6,5 +6,5 @@ jwt:
   secret: ${JWT_SECRET:QWERTYUIOKJHGFDS}
 
 spring:
-  controller:
+  application:
     name: category
