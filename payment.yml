@@ -6,5 +6,9 @@ jwt:
   secret: ${JWT_SECRET:QWERTYUIOKJHGFDS}
 
 spring:
-  controller:
+  application:
     name: payment
+    
+customer:
+  service:
+    uri: http://customer-info/
