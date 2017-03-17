@@ -6,5 +6,15 @@ jwt:
   secret: ${JWT_SECRET:QWERTYUIOKJHGFDS}
 
 spring:
-  controller:
+  application:
     name: order
+    
+cart:
+  service:
+    uri: http://localhost:8081/
+payment:
+  service:
+    uri: http://localhost:8087/
+inventory:
+  service:
+    uri: http://localhost:8085/
