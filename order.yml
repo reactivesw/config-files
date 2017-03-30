@@ -11,10 +11,10 @@ spring:
     
 cart:
   service:
-    uri: http://localhost:8081/
+    uri: http://cart/
 payment:
   service:
-    uri: http://localhost:8087/
+    uri: http://payment/
 inventory:
   service:
-    uri: http://localhost:8085/
+    uri: http://inventory/
