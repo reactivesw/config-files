@@ -11,7 +11,7 @@ customer:
 
 google:
   client:
-    id: ${GOOGLE_CLIENT_ID:}
+    id: ${GOOGLE_CLIENT_ID:131564184321-8o7d2rtmansr22v7hlubvjkqmqgkd08h.apps.googleusercontent.com}
 spring:
   controller:
     name: customer-authentication
