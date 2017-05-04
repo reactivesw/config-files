@@ -31,3 +31,15 @@ zuul:
     order:
       path: /orders/**
       url: http://order/
+
+authentication:
+  service:
+    uri: http://customer-authentication/
+
+auth:
+  ignored:
+    hosts:
+      - customer-authentication
+      - category
+      - product
+      - product-type
